@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#F8FAF5"/>
+  <rect width="1200" height="630" fill="#2E7D32" opacity="0.1"/>
+  <text x="600" y="280" text-anchor="middle" font-family="Georgia, serif" font-size="64" font-weight="bold" fill="#2E7D32">Digital Herbarium Collection</text>
+  <text x="600" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#1B1B1B">A Scientific Collection of Preserved Plant Specimens</text>
+  <path d="M600 420 C600 420 600 380 560 350 C540 330 545 310 555 310 C570 315 600 340 600 340 C600 340 630 315 645 310 C655 310 660 330 640 350 C600 380 600 420 600 420Z" fill="#81C784"/>
+</svg>
