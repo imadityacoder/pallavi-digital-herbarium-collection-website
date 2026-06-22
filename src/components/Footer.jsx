@@ -61,7 +61,7 @@ export default function Footer() {
         <Separator className="my-8" />
 
         <p className="text-center text-sm text-muted">
-          &copy; {new Date().getFullYear()} Digital Herbarium Collection. All rights reserved.
+          &copy; {new Date().getFullYear()} Sr Studio. All rights reserved.
         </p>
       </div>
     </footer>
