@@ -195,4 +195,53 @@ export const rawPlantsPart3 = [
     interestingFacts:
       'Plumeria pudica is one of the few evergreen species in a genus of mostly deciduous trees. The milky latex that irritates skin contains compounds related to those found in anti-cancer research on other Apocynaceae members. The fiddle-shaped leaves are unique in the entire Plumeria genus of over three hundred species. A cutting can flower within one year of planting, making it exceptionally rewarding for gardeners. The species name pudica means bashful in Latin, possibly referring to the partially hidden flower centers.',
   },
+  {
+    id: 10,
+    slug: 'ocimum-tenuiflorum',
+    scientificName: 'Ocimum tenuiflorum',
+    commonName: 'Holy Basil',
+    family: 'Lamiaceae',
+    thumbnail: 'assets/plants/ocimum-tenuiflorum/thumb.jpg',
+    plantPhoto: 'assets/plants/ocimum-tenuiflorum/plant.jpg',
+    herbariumPhoto: 'assets/plants/ocimum-tenuiflorum/herbarium.jpg',
+    collectionInfo: {
+      locality: 'B.N. College (Garden)',
+      collectedBy: 'Pallavi Kumari',
+      date: '18.06.2026',
+      remarks: 'A sacred medicinal herb (Tulsi)'
+    },
+    classification: {
+      kingdom: 'Plantae',
+      division: 'Magnoliophyta',
+      class: 'Magnoliopsida',
+      order: 'Lamiales',
+      family: 'Lamiaceae',
+      genus: 'Ocimum',
+      species: 'O. tenuiflorum',
+    },
+    description:
+      'Ocimum tenuiflorum, commonly known as holy basil or Tulsi, is an aromatic perennial herb widely cultivated across South Asia for its religious, culinary, and medicinal uses. It forms a bushy habit with ovate leaves and profuse spikes of small bilabiate flowers. Plants emit a strong clove-like fragrance from essential oils that are valued in traditional medicine and perfumery.',
+    habitat:
+      'Tulsi grows in well-drained soils in full sun to partial shade and is commonly found in home gardens, temple courtyards, and botanical collections. It thrives in warm tropical and subtropical climates and tolerates moderately dry conditions.',
+    morphology:
+      'Holy basil is a compact, branching herb reaching 30–60 cm in height. Leaves are opposite, ovate to lanceolate, and aromatic when crushed. Stems are square in cross-section, typical of Lamiaceae, and may be slightly pubescent.',
+    flowers:
+      'Flowers are small, tubular, and borne in terminal spikes; corollas are typically pale purple to white. Blooming attracts bees and other pollinators and continues intermittently throughout the warm season.',
+    leaves:
+      'Leaves are simple, serrate, and aromatic with a strong camphor or clove scent depending on the chemotype. They are used fresh or dried for teas, culinary flavoring, and medicinal preparations.',
+    stem:
+      'Stems are square, slightly woody at the base in older plants, and produce numerous lateral branches. The tissue contains essential oil glands that give the plant its characteristic aroma.',
+    fruitsAndSeeds:
+      'Fruits are four nutlets produced from the bilabiate flowers; seeds are small and dark and are used for propagation. Seed production is prolific under favorable conditions.',
+    ecologicalImportance:
+      'Tulsi provides nectar for bees and supports local pollinator communities. Its aromatic oils may deter some herbivores and pests, making it a useful companion plant in small gardens.',
+    medicinalUses:
+      'Ocimum tenuiflorum has a long history in Ayurveda for treating respiratory ailments, fever, and stress-related conditions. Leaves, infusions, and essential oils are used as adaptogens, anti-inflammatories, and mild expectorants.',
+    traditionalUses:
+      'Considered sacred in Hindu households, Tulsi is grown for ritual use, offerings, and daily devotional practices. It is also used in folk remedies, culinary preparations, and as a protective planting around homes.',
+    economicImportance:
+      'Holy basil has commercial value as an herbal tea, medicinal botanical, and source of essential oils. It is cultivated at small and medium scales for local markets and niche exports.',
+    interestingFacts:
+      'Tulsi is venerated in many Indian households where plants are kept for spiritual and medicinal purposes. Multiple chemotypes exist (e.g., Rama, Krishna, Vana) with distinct aromas and uses.'
+  },
 ]
