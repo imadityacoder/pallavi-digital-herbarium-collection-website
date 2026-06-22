@@ -61,7 +61,9 @@ export default function Footer() {
         <Separator className="my-8" />
 
         <p className="text-center text-sm text-muted">
-          &copy; {new Date().getFullYear()} Sr Studio. All rights reserved.
+          &copy; {new Date().getFullYear()} powered by <a href="https://srstudioindia.vercel.app" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+            Sr studio
+          </a>. All rights reserved.
         </p>
       </div>
     </footer>
