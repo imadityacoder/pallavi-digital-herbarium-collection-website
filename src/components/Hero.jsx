@@ -60,43 +60,48 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="text-fluid-hero font-heading font-bold text-white mb-4">
-            Digital Herbarium Collection
+          <h1 className="text-fluid-hero font-heading font-bold text-white mb-2">
+            HERBARIUM PROJECT
           </h1>
+          <p className="text-lg text-white/90 mb-1">🌿 Department of Botany 🌿</p>
+          <p className="text-base text-white/90 mb-1">Bihar National College, Patna</p>
+          <p className="text-sm text-white/80 mb-6">(A Constituent Unit of Patna University, Patna)</p>
         </motion.div>
 
-        <motion.p
-          className="text-fluid-subtitle font-heading text-white/90 mb-4"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-        >
-          A Scientific Collection of Preserved Plant Specimens
-        </motion.p>
-
-        <motion.p
-          className="max-w-2xl mx-auto text-base sm:text-lg text-white/80 mb-10 leading-relaxed"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-        >
-          Explore a curated collection of preserved plant specimens documenting botanical diversity
-          and scientific observation.
-        </motion.p>
-
         <ScrollReveal delay={0.6}>
-          <div className="glass-card mx-auto max-w-md p-6 text-left">
+          <div className="glass-card mx-auto max-w-2xl p-6 text-left">
             <h2 className="font-heading text-lg font-semibold text-white mb-4 text-center">
-              Student Information
+              Submitted By
             </h2>
-            <dl className="space-y-3">
-              {studentInfo.map(({ icon: Icon, label, value }) => (
-                <div key={label} className="flex items-center gap-3">
-                  <Icon className="h-4 w-4 text-accent shrink-0" aria-hidden="true" />
-                  <dt className="text-sm text-white/70">{label}:</dt>
-                  <dd className="text-sm font-medium text-white ml-auto">{value}</dd>
-                </div>
-              ))}
+            <dl className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-white/90">
+              <div>
+                <dt className="text-sm text-white/70">Name</dt>
+                <dd className="font-medium">Pallavi Kumari</dd>
+              </div>
+              <div>
+                <dt className="text-sm text-white/70">Roll No.</dt>
+                <dd className="font-medium">33</dd>
+              </div>
+              <div>
+                <dt className="text-sm text-white/70">Examination Roll No.</dt>
+                <dd className="font-medium">260001</dd>
+              </div>
+              <div>
+                <dt className="text-sm text-white/70">Course</dt>
+                <dd className="font-medium">Bachelor of Science (B.Sc.) – Botany</dd>
+              </div>
+              <div className="sm:col-span-2">
+                <dt className="text-sm text-white/70">Project Title</dt>
+                <dd className="font-medium">HERBARIUM COLLECTION AND DOCUMENTATION OF PLANT SPECIES OF FAMILIES.</dd>
+              </div>
+              <div className="sm:col-span-2">
+                <dt className="text-sm text-white/70">Submitted To</dt>
+                <dd className="font-medium">Dr. Dheeraj Gautam Sir &amp; Dr. Rajeev Kumar Sir</dd>
+              </div>
+              <div className="sm:col-span-2">
+                <dt className="text-sm text-white/70">Academic Session</dt>
+                <dd className="font-medium">2023–2027</dd>
+              </div>
             </dl>
           </div>
         </ScrollReveal>
